@@ -1,0 +1,15 @@
+﻿Build started 01/09/2016 17:16:47.
+     1>Project "D:\Andriy\Sources\mircat\mircat.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Daylight Solutions\MIRcatSDK\bin" /I"C:\Program Files\MATLAB\R2016a\extern\include" /Zi /nologo /W4 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MIRCAT_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\mircat.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt mircat.cpp
+         mircat.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Andriy\Sources\mircat\x64\Debug\mircat.mexw64" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Daylight Solutions\MIRcatSDK\bin" /LIBPATH:"C:\Program Files\MATLAB\R2016a\extern\lib\win64\mingw64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"mircat.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Andriy\Sources\mircat\x64\Debug\mircat.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Andriy\Sources\mircat\x64\Debug\mircat.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\mircat.obj
+         x64\Debug\stdafx.obj
+         mircat.vcxproj -> D:\Andriy\Sources\mircat\x64\Debug\mircat.mexw64
+     1>Done Building Project "D:\Andriy\Sources\mircat\mircat.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22

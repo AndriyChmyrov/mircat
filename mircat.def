@@ -1,0 +1,2 @@
+LIBRARY mircat.mexw64
+EXPORTS mexFunction
