@@ -46,6 +46,11 @@ mircat('temperaturestable')          % check if the laser temperature is is stab
 
 mircat('wavelength_mic',lambda_um);  % set emission wavelength to lambda_um (in microns)
 
+for ki = 1:10                        % wait up to 5 sec until the laser tuning process is finished
+    if mircat('istuned'), break, end
+    pause(0.5);
+end
+
 mircat('emission',1);                % emission ON
 mircat('emission',0);                % emission OFF
 
