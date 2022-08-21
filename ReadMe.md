@@ -35,10 +35,10 @@ mircat('isconnected')                % initialize the driver and check connectio
 mircat('isinterlocked')              % check the status of the laser interlock
 
 if ~mircat('isarmed')                % check if the laser is armed
-	mircat('arm');                   % arm the laser
-	while ~mircat('isarmed')         % wait till arming process is finished
-		pause(0.5);
-	end
+    mircat('arm');                   % arm the laser
+    while ~mircat('isarmed')         % wait till arming process is finished
+        pause(0.5);
+    end
 end
 
 mircat('temperature')                % check the laser temperature
